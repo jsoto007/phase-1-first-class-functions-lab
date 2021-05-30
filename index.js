@@ -8,5 +8,5 @@ const returnLastTwoDrivers = function (driversArray) {return driversArray.slice(
 }
 
 const selectingDrivers= [returnFirstTwoDrivers]
-// return selectingDrivers.push(returnFirstTwoDrivers)
+return selectingDrivers.push(returnFirstTwoDrivers)
  
