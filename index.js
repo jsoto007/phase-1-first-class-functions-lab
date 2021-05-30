@@ -7,6 +7,10 @@ const returnFirstTwoDrivers = function (driversArray) { return driversArray.slic
 const returnLastTwoDrivers = function (driversArray) {return driversArray.slice(-2)
 }
 
-const selectingDrivers= [returnFirstTwoDrivers]
-return selectingDrivers.push(returnFirstTwoDrivers)
+const selectingDrivers= [returnFirstTwoDrivers, returnLastTwoDrivers]
+// return selectingDrivers.push(returnFirstTwoDrivers)
  
+function createFareMultiplier(num1) {
+
+   const newNumber = (num1 * 4);
+}
